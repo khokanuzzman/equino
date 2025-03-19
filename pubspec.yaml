@@ -1,0 +1,91 @@
+name: Equino
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_inappwebview: ^6.1.5
+  url_launcher: ^6.3.1
+  permission_handler: ^11.4.0
+  onesignal_flutter: ^5.3.0
+  flutter_native_splash: ^2.4.5
+#  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Define assets for your application (like config.json)
+  assets:
+    - assets/config.json  # Add your config file here or any other assets you want
+    - assets/logo.png
+    - assets/splash.png
+    - assets/icon/icon.png
+
+  # To add custom fonts, you can do so in the following way:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+#flutter_native_splash:
+#  color: "#76091A"  # Your primary color, can be hex code or a color name
+#  image: "assets/logo.png"  # Path to your splash screen image
+#  android: true
+#  ios: true
+
+
+#flutter_launcher_icons:
+#  android: true
+#  ios: true
+#  image_path: "assets/icon/icon.png"  # Replace with your icon file path
+#  #    adaptive_icon_foreground: "assets/app_icon_foreground.png"  # Optional for Android adaptive icon
+#  #    adaptive_icon_background: "assets/app_icon_background.png"  # Optional for Android adaptive icon
+#  min_sdk_android: 21 # Minimum Android SDK version
+
+#flutter_launcher_icons:
+#  android: true  # Set to true to enable icon generation for Android
+#  ios: true      # Set to true to enable icon generation for iOS
+#  image_path: "assets/icon/icon.png"  # Path to your logo image
+#  background_color: "#76091A"  # Background color for icons (use the color you want for the background)
+#  android_icon_size: 126  # Icon size for Android (you can specify a base size like 96 px)
+#  ios_icon_size: 120
+#  min_sdk_android: 21  # Minimum Android SDK version (Android min SDK: 16 by default, set to 21 for better compatibility)
+#  adaptive_icon:
+#    android: true  # Enable adaptive icon for Android
+#    foreground: "assets/logo.png"
+#    background: "#76091A"  # Set background color for adaptive icon
+#  web:
+#    generate: true  # Generate a web app icon
+#    image_path: "assets/icon/icon.png"  # Path to your logo image
+#    background_color: "#76091A"  # Web background color
+#    theme_color: "#76091A"  # Theme color for web (set the color you prefer)
+#  windows:
+#    generate: true  # Generate icon for Windows
+#    image_path: "assets/icon/icon.png"  # Path to your logo image
+#    icon_size: 48  # Icon size for Windows (range 48 to 256, default is 48)
+#  macos:
+#    generate: true  # Generate icon for macOS
+#    image_path: "assets/icon/icon.png"  # Path to your logo image
+
+flutter_native_splash:
+  background_color: "#76091A"
+  color: "#76091A"  # Background color for splash screen
+  image: "assets/logo.png"  # Path to your splash image (e.g., logo)
+  android: true  # Enable splash on Android
+  ios: true      # Enable splash on iOS
+  web: false     # If you want a splash screen for the web, set this to true
+  windows: true  # Enable splash on Windows
+  macos: true    # Enable splash on macOS
