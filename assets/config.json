@@ -1,0 +1,10 @@
+{
+  "game_url": "https://equino.eu/inloggen",
+  "onesignal_app_id": "c4e5b2b7-1b9e-4b3d-a5f4-3c4e5b2b7b9e",
+  "branding": {
+    "app_name": "Equino Game",
+    "splash_screen_image": "assets/logo.jpeg",
+    "primary_color": "#76091A",
+    "secondary_color": "#EBB73D"
+  }
+}
